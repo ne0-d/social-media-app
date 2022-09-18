@@ -1,0 +1,35 @@
+.InfoCard{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    /* width: 90%; */
+    width: 100%;
+    margin: 1rem 0;
+}
+.infoHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.penIcon{
+    width:1.7rem;
+    padding: 0.2rem;
+    padding: 0.2rem;
+    height: 1.7rem;
+    background-color: var(--inputColor);
+    border-radius: 100%;
+}
+.penIcon:hover{
+    cursor:pointer;
+}
+.logout-button{
+    height: 2rem;
+    width: 80%;
+    align-self: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    max-width: 10rem;
+}

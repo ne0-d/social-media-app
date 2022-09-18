@@ -1,0 +1,23 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.nav-profile-image{
+    max-width: 3rem;
+    border-radius: 100%;
+    object-fit: cover;
+
+}
+.Navbar{
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    .Navbar{
+        display:flex;
+    }
+}
